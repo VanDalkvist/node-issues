@@ -11,4 +11,11 @@ A list of possible node issues
       process.exit(exitCode);
     }, 100);
     ```
- 
+* _**node-gyp with Windows 8 and Visual Studio 2012 error during installing package**_ 
+
+    Solution:
+    ```cmd
+        npm install zombie --python=C:\tools\python27\python.exe --msvs_version=2013
+    ```
+        Windows 8
+        visual studio 2013 (Full version)
