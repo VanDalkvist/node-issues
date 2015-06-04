@@ -19,3 +19,10 @@ A list of possible node issues
     ```
         Windows 8
         visual studio 2013 (Full version)
+* _**cannot use grunt**_ - module is not defined - coffee-script (for example)
+
+    Solution: 
+        
+    - Remove ```node_modules``` directory.
+    - ```npm cache clean``` to empty downloaded temporary dependencies, just in case.
+    - ```npm install``` again, and better not to interrupt it while running.
