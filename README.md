@@ -26,3 +26,9 @@ A list of possible node issues
     - Remove ```node_modules``` directory.
     - ```npm cache clean``` to empty downloaded temporary dependencies, just in case.
     - ```npm install``` again, and better not to interrupt it while running.
+
+* _**C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(366,5): warning MSB8003: Cou ld not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to  an invalid version number. TRACKER : error TRK0005: Failed to locate: "CL.exe". The system cannot find the file specified.**_
+    
+    Solution: 
+
+        Install visual c++
